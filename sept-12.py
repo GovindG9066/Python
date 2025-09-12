@@ -22,6 +22,9 @@ count=5
 for i in range(1,count+1):
     print("* "*i)
 
+print("Up side down Star Right angel triangle : ")
 
-    
+for i in range(count,0,-1):
+    print("* "*i)
+
 
