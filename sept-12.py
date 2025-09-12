@@ -15,4 +15,13 @@ Str="Govind"
 
 print(Str[::-1])
 
+print("Star Patterns : ")
+
+count=5
+
+for i in range(1,count+1):
+    print("* "*i)
+
+
+    
 
