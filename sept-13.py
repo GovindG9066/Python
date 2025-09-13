@@ -14,3 +14,5 @@ print("flip simple right angle triangle ")
 
 for i in range(count,0,-1):
     print(" " * (count-i) + "*" * i)
+
+for i in range()
