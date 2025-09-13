@@ -53,3 +53,19 @@ print("Pyramid triangle Up side down pattern without diagonal : ")
 
 for i in range(count,0,-1):
     print(" " * (count-i)+"* "*i)
+
+print("palandrome Num :")
+
+num=121
+original=num
+rev=0
+
+while num != 0:
+    digit=num % 10
+    rev=rev*10+digit
+    num=num // 10
+
+if original== rev:
+    print("Palandrome")
+else:
+    print("Not palandrome")
