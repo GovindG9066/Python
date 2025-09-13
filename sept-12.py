@@ -44,3 +44,7 @@ print("Flip up side down right angle triangel : ")
 for i in range(count,0,-1):
     print(" " * (count-i) + "*" * i)
 
+print("Pyramid triangle without diagonal : ")
+
+for i in range(1,count+1):
+    print(" "* (count-i)+"* "*i)
