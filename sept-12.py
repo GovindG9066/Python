@@ -35,8 +35,7 @@ for i in range(1,count+1):
 print("Flip right angle triangle : ")
 
 
-for i in range(1,count+1):
-    print(" " * (count-i) +"*" * i )
+
 
 
 print("Flip up side down right angle triangel : ")
@@ -69,3 +68,12 @@ if original== rev:
     print("Palandrome")
 else:
     print("Not palandrome")
+
+print("star pattern pyramid pattern with diagonal")
+for i in range(1,count+1):
+   
+   space=" "*(count-i)
+   left="*"*i
+   right="*"*(i-1)
+
+   print(space+left+right)
