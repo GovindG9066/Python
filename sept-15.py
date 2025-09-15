@@ -25,3 +25,12 @@ op=1
 for  i in range (1,num+1):
     op=op*i
 print(op)
+
+print("factorial using for loop decremental : ")
+
+num=5
+op=1
+
+for i in range(num,0,-1):
+    op=op*i
+print(op)
