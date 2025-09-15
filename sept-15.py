@@ -17,3 +17,11 @@ while num != 0:
     op=op*num
     num-=1
 print(op)
+
+print("Factorial using for loop incremental : ")
+
+num=5
+op=1
+for  i in range (1,num+1):
+    op=op*i
+print(op)
