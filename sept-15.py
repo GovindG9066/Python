@@ -8,3 +8,12 @@ while count <= num:
     output=output*count
     count+=1
 print(output)
+
+print("factorial using while loop decremental: ")
+
+num=5
+op=1
+while num != 0:
+    op=op*num
+    num-=1
+print(op)
