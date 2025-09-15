@@ -42,3 +42,9 @@ def factorial(n):
     else:
         return n*factorial(n-1)
 print(factorial(5)) 
+
+print("Up side deown star pattern : ")
+
+n=5
+for i in range (n,0,-1):
+    print("*"*i)
