@@ -48,3 +48,18 @@ print("Up side deown star pattern : ")
 n=5
 for i in range (n,0,-1):
     print("*"*i)
+
+num=5
+fact=1
+count=1
+while count <= num:
+    fact=fact*count
+    count+=1
+
+print(fact)
+
+
+
+
+
+
