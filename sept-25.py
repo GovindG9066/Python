@@ -31,3 +31,14 @@ print(num1 - num2) # items which in num 1 but not in num 2
 print(num2 - num1) # items which in num 2 but not in num 1 (differencieate)
 
 print(num1 ^ num2) # items which are difference in both 
+
+print("Useful methods :")
+abc={88,55,66,44,99,455,66,55,6}
+print(len(abc)) # count the length of the set not count the duplicate
+
+print(66 in abc)
+print(10 not in abc)
+
+print("Remove all the items in set : ")
+abc.clear()
+print(abc)
