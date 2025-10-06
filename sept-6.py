@@ -29,3 +29,25 @@ def calculator(a,b,oper):
 
 answer=calculator(first,second,oper)
 print(answer) 
+
+import random
+print("Guess the number : ")
+print("Enter the number between 1 to 100")
+
+rand=random.randint(1,100)
+attempts=0
+
+while True:
+    num=int(input("Enter the number : "))
+    if num == rand:
+        print(f"Congrats! You Guess the number in {attempts} attempts...")
+        break
+    elif num > rand:
+        attempts+=1
+        print("num is too big...")
+    elif num < rand:
+        attempts+=1
+        print("num is too small...")
+    else:
+        print("Choose the number between 1 to 100")
+
