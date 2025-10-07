@@ -159,4 +159,37 @@ while current:
     print(current.data,end="->")
     current=current.next
 print("None")
-        
+
+print("Searching element in the linkedlist :")
+
+class Node2:
+    def __init__(self,data):
+        self.data=data
+        self.next=None
+n1=Node2(56)
+n2=Node2(5)
+n3=Node2(5686)
+n4=Node2(5674)
+
+n1.next=n2      
+n2.next=n3      
+n3.next=n4
+
+head=n1
+
+
+def search(head,key):
+    current=head
+    while current:
+        if current.data==key:
+            print("Mil gyi")
+            return True
+        else:
+            current=current.next
+        return False
+
+key = 5
+if search(head, key):
+    print(f"{key} found in linked list")
+else:
+    print(f"{key} not found in linked list")
