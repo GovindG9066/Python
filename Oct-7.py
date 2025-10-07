@@ -73,3 +73,19 @@ class demo2:
     def __del__(self):
         print("I am distructor...")
 forth=demo2()
+
+print("5th question ---tricky---")
+
+class emp:
+    def __init__(self,name,sal):
+        self.name=name
+        self.sal=sal
+    def bonus(self):
+        self.percent=self.sal*(10/100)
+        self.total=self.sal+self.percent
+        print(f"Total salary with bonus is :{self.total}")
+
+e1=emp("Krishna",100)
+e1.bonus()
+
+        
