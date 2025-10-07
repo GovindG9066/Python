@@ -54,3 +54,14 @@ class student1:
         print(f"Age:{self.age}")
 std=student1("Govind",21)
 std.display()  
+
+print("3rd question : ")
+class car1:
+    def __init__(self,modal,price):
+        self.modal=modal
+        self.price=price
+    
+obj1=car1("Thar",2000000)
+print(obj1.modal)
+obj2=car1("Porshar",30000000)
+print(obj2.modal)
