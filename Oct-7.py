@@ -156,7 +156,7 @@ head=n1
 current=head
 
 while current:
-    print(current.data)
+    print(current.data,end="->")
     current=current.next
 print("None")
         
