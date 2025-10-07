@@ -88,4 +88,23 @@ class emp:
 e1=emp("Krishna",100)
 e1.bonus()
 
-        
+print("Question 6th start : ")
+class Calculator:
+    def __init__(self,a,b):
+        self.a=a
+        self.b=b
+
+    def add(self):
+        return self.a+self.b
+    def sub(self):
+        return self.a-self.b
+    def mul(self):
+        return self.a*self.b
+    
+cal=Calculator(15,6)
+print(f"First Number : {cal.a}")
+print(f"Second Number : {cal.b}")
+
+print(f"Addition : {cal.add()}")
+print(f"Subtraction : {cal.sub()}")
+print(f"Multiplication : {cal.mul()}")
