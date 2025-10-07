@@ -30,3 +30,14 @@ def main():
 if __name__=="__main__":
     main()
     print("End of the program")
+
+
+print("Practice from chatgpt...")
+print("Question 1st")
+class laptop:
+    def showBand(self,bandName):
+        self.bandName=bandName
+        print("Showing band...")
+        print(self.bandName)
+lap=laptop()
+lap.showBand("b1")
