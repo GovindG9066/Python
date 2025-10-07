@@ -65,3 +65,11 @@ obj1=car1("Thar",2000000)
 print(obj1.modal)
 obj2=car1("Porshar",30000000)
 print(obj2.modal)
+
+print("4th Question : ")
+class demo2:
+    def __init__(self):
+        print("I am the constructor...")
+    def __del__(self):
+        print("I am distructor...")
+forth=demo2()
