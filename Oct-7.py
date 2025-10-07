@@ -108,3 +108,31 @@ print(f"Second Number : {cal.b}")
 print(f"Addition : {cal.add()}")
 print(f"Subtraction : {cal.sub()}")
 print(f"Multiplication : {cal.mul()}")
+
+print("LinkedList Start : ")
+
+class LinkedList:
+    def __init__(self,data):
+        self.data=data
+        self.next=None
+    
+n1=LinkedList(15)
+n2=LinkedList(16)
+n3=LinkedList(35)
+n4=LinkedList(9)
+n5=LinkedList(19)
+
+
+n1.next=n2
+n2.next=n3
+n3.next=n4
+n4.next=n5
+
+head=n1
+
+current=head
+
+while current:
+    print(current.data)
+    current=current.next
+print("None")
