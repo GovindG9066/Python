@@ -136,3 +136,27 @@ while current:
     print(current.data)
     current=current.next
 print("None")
+
+
+class Node:
+    def __init__(self,data):
+        self.data=data
+        self.next=None
+n1=Node(25)
+n2=Node(50)
+n3=Node(75)
+n4=Node(100)
+
+n1.next=n2
+n2.next=n3
+n3.next=n4
+
+head=n1
+
+current=head
+
+while current:
+    print(current.data)
+    current=current.next
+print("None")
+        
