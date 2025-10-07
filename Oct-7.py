@@ -41,3 +41,16 @@ class laptop:
         print(self.bandName)
 lap=laptop()
 lap.showBand("b1")
+
+print("Question 2nd : ")
+
+class student1:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+
+    def display(self):
+        print(f"Name:{self.name}")
+        print(f"Age:{self.age}")
+std=student1("Govind",21)
+std.display()  
