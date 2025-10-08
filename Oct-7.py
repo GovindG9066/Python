@@ -193,3 +193,21 @@ if search(head, key):
     print(f"{key} found in linked list")
 else:
     print(f"{key} not found in linked list")
+
+class Node3:
+    def __init__(self,data):
+        self.data=data
+        self.next=None
+n1=Node3(45)
+n2=Node3(4)
+n3=Node3(65)
+n4=Node3(405)
+
+n1.next=n2
+n2.next=n3
+n3.next=n4
+
+head=n1
+
+def insert_beginning(head,new_data)
+
