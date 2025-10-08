@@ -25,3 +25,11 @@ def traversal(head):
     print("Null")
 
 traversal(head)
+
+print("Matricx 3*3")
+mat=[
+    [45,8,6],
+    [8844,65,4],
+    [54,65,6]
+]
+print(mat)
