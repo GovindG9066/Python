@@ -11,3 +11,9 @@ while tree:
 count=5
 for i in range(count+1):
     print(i * "* ")
+
+print(" ")
+
+count=5
+for i in range(count+1):
+    print("  " * (count-i) + "* " * i + "* " * (i-1))
