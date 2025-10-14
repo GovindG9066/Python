@@ -24,3 +24,6 @@ for i in range(count+1):
 count=20
 for i in range(2,count+1,2):
     print(i)
+
+for i in range(1,count+1,2):
+    print(i)
