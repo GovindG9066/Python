@@ -19,3 +19,8 @@ print("")
 
 for i in range(count+1):
     print("  " * (count-i) + "* " * i)
+
+print("")
+
+for i in range(count+1):
+    print(" " * (count-i) + "* " * i )
