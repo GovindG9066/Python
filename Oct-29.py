@@ -29,3 +29,18 @@ if ori==rev:
     print("Palandrom")
 else:
     print("Not Palandrom")
+
+print("Prime Number :")
+
+num2=7
+check=True
+
+for i in range(2,num2):
+    if num2 % i ==0:
+        check=False
+        break
+
+if check:
+    print(f'{num2} is Prime Number')
+else:
+    print(f'{num2} is Not a Prime Number')
