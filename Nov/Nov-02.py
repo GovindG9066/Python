@@ -36,3 +36,10 @@ def swipe(text):
     return "".join(char)
 
 print(swipe(text))
+
+print("3rd question : ")
+
+names=['Ajay', 'Vijay', 'Ganesh', 'Paresh', 'Mahesh']
+
+first=[name[0] for name in names]
+print(first)
