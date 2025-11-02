@@ -25,3 +25,14 @@ dict["name"]="Gondu"
 
 print(dict)
 
+print("2nd question")
+text=input("Enter the value : ")
+def swipe(text):
+    char=list(text)
+
+    for i in range(0,len(char)-1,2):
+        char[i],char[i+1]=char[i+1],char[i]
+        
+    return "".join(char)
+
+print(swipe(text))
