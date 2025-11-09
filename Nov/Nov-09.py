@@ -35,3 +35,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+count=5
+print("Star Pattern up side down flip right angle triangle : ")
+
+for i in range(count+1):
+    print("  " * i +"* " * (count-i))
