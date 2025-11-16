@@ -28,3 +28,20 @@ def Sum_of_Square(num1):
     print(f"sum of square of first n natural number is :{sum}")  
 
 Sum_of_Square(5)
+
+print("Check prime num or not")
+
+def prime(p1):
+    pn=0
+    for i in range(2,p1):
+        if p1 % i == 0:
+            pn+=1
+            break
+        else:
+            pn=0
+    if pn == 0:
+        print(f"Given Number {p1} is Prime")
+    else:
+        print(f"Given Number {p1} is NOT Prime")
+
+prime(13)
