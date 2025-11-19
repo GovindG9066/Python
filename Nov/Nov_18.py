@@ -14,4 +14,4 @@ def binary(arr,l,r,x):
 arr=[1,3,5,7,8,9]
 x=8
 
-print(f"Element is present at {binary(arr,0,len(arr)-1,x)}")
+# print(f"Element is present at {binary(arr,0,len(arr)-1,x)}")
