@@ -18,3 +18,10 @@ except:
     print("Some thing went wrong")
 finally:
     print("This is the end...")
+
+print("raise an error")
+
+p="Govind"
+
+if type(p) is not int:
+    raise TypeError("Only number is allowed")
