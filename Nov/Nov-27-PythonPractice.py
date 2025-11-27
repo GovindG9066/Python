@@ -82,22 +82,34 @@
 # else:
 #     print(f"{original} is Not Palandrome num")
 
+# print("9th list ")
 
+# l1=[1,2,3,4,5]
+# l2=[11,12,13,14,15]
+# new_list=[]
 
-l1=[1,2,3,4,5]
-l2=[11,12,13,14,15]
-new_list=[]
-
-for i in l1:
-    if i % 2 != 0:
-        new_list.append(i)
+# for i in l1:
+#     if i % 2 != 0:
+#         new_list.append(i)
     
     
-for j in l2:
-    if j % 2 == 0:
-        new_list.append(j)
+# for j in l2:
+#     if j % 2 == 0:
+#         new_list.append(j)
 
-print(new_list)
+# print(new_list)
+
+print("10th set")
+
+set1={1,2,3,5,1,2,6}
+set2={8,9,4,6,8,2,5,6}
+
+set3=set1.union(set2)
+
+print(set3)
+
+
+    
 
 
 
