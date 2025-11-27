@@ -99,14 +99,22 @@
 
 # print(new_list)
 
-print("10th set")
+# print("10th set")
 
-set1={1,2,3,5,1,2,6}
-set2={8,9,4,6,8,2,5,6}
+# set1={1,2,3,5,1,2,6}
+# set2={8,9,4,6,8,2,5,6}
 
-set3=set1.union(set2)
+# set3=set1.union(set2)
 
-print(set3)
+# print(set3)
+
+print("11th Program func accenpt str from user and rev it")
+
+def rev_str(str):
+    
+
+
+rev_str("Govind")
 
 
     
