@@ -20,3 +20,8 @@ print("Up Side Down flip Right angle trangle :")
 
 for i in range(1,count+1):
     print("  " * i + "* " * (count+1-i))
+
+print("Triangle pattarn without diagonal :")
+
+for i in range(1,count+1):
+    print(" " * (count+1-i) + "* " * i )
