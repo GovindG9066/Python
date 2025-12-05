@@ -25,3 +25,8 @@ print("Triangle pattarn without diagonal :")
 
 for i in range(1,count+1):
     print(" " * (count+1-i) + "* " * i )
+
+print("Up Side Down Triangle Pattern Without diagonal :")
+
+for i in range(1,count+1):
+    print(" " * i + "* " * (count+1-i))
