@@ -5,3 +5,7 @@ count=5
 for i in range(1,count+1):
     print("* "*i)
 
+print("Up Side Down Simple Star Pattern :")
+
+for i in range(1,count+1):
+    print("* " * (count+1-i))
