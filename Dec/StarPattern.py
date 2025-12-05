@@ -30,3 +30,8 @@ print("Up Side Down Triangle Pattern Without diagonal :")
 
 for i in range(1,count+1):
     print(" " * i + "* " * (count+1-i))
+
+print("Triangle Pattern With diagonal :")
+
+for i in range(1,count+1):
+    print("  " * (count+1-i) + "* " * i + "* " * (i-1))
