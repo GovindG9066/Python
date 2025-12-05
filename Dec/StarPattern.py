@@ -35,3 +35,8 @@ print("Triangle Pattern With diagonal :")
 
 for i in range(1,count+1):
     print("  " * (count+1-i) + "* " * i + "* " * (i-1))
+
+print("Triangle Pattern Up Side Down With Diagonal : ")
+
+for i in range(1,count+1):
+    print("  " * i + "* " * (count+1-i) + "* " *(count-i))
